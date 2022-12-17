@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+h1,
+h2,
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* title section */
+
+#title {
+    background-color: #ff4c68;
+    color: #ffffff;
+    text-align: left;
+}
+.container-fluid {
+    padding: 1% 8% 4%;
+}
+.navbar {
+    padding: 0 0 4rem;
+}
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: -80px;
+}
+.nav-item {
+    padding: 0 18px;
+}
+.nav-link {
+    font-size: 1rem;
+}
+.nav-link:hover {
+    color: #fff;
+}
+.custom-btn {
+    margin: 5% 3% 5% 0;
+}
+.title-img {
+    transform: rotate(20deg);
+    position: absolute;
+    right: 23%;
+    width: 300px;
+}
+
+/* features section */
+
+#features {
+    background-color: #fff;
+    padding: 7% 8%;
+    position: relative;
+}
+.feature-box {
+    padding: 1%;
+}
+h3 {
+    font-size: 2rem;
+}
+p {
+    color: #afafaf;
+}
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* testimonial section */
+
+#testimonials {
+    background-color: #ef8172;
+    color: #fff;
+}
+h2 {
+    font-size: 2.4rem;
+}
+.testimonial-image {
+    width: 10%;
+    margin: 20px;
+    border-radius: 50%;
+}
+.carousel-item {
+    padding: 5% 15%;
+}
+
+/* press section */
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 1%;
+}
+.press-logo {
+    width: 12%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing section */
+
+#pricing {
+    padding: 40px 100px;
+}
+.pricing-col {
+    padding: 3% 2%;
+}
+
+/* cta section */
+
+#cta {
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    color: #fff;
+}
+.cta-heading {
+    font-size: 2.5rem;
+}
+
+/* footer section */
+
+#footer {
+    padding: 5%;
+    padding-bottom: 0;
+}
+#footer > p {
+    margin-top: 1%;
+}
+#footer > i {
+    padding: 1%;
+}
+.fa-twitter:hover {
+    color: #00acee;
+    transform: scale(1.2);
+}
+.fa-facebook:hover {
+    color: #3b5998;
+    transform: scale(1.2);
+}
+.fa-instagram:hover {
+    color: #fb3958;
+    transform: scale(1.2);
+}
+.fa-envelope:hover {
+    color: #15a5ee;
+    transform: scale(1.2);
+}
+
+/* responsive changes */
+
+@media (max-width: 1012px) {
+    .title-img {
+        position: static;
+        transform: none;
+    }
+    #title {
+        text-align: center;
+    }
+}
