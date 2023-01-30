@@ -136,6 +136,7 @@ h2 {
 }
 #footer > i {
     padding: 1%;
+    font-size: 1.6rem;
 }
 .fa-twitter:hover {
     color: #00acee;
@@ -154,6 +155,8 @@ h2 {
     transform: scale(1.2);
 }
 
+
+  
 /* responsive changes */
 
 @media (max-width: 1012px) {
